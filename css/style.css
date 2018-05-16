@@ -1,0 +1,19 @@
+body{
+  width:90%;
+  margin:auto;
+  background: -webkit-linear-gradient(90deg, rgb(255, 248, 220), rgb(237, 210, 95));
+  background: linear-gradient(90deg, rgb(255, 248, 220), rgb(237, 210, 95));
+  background: url("../img/cover.png") no-repeat fixed;
+  background-size: cover;
+  background-position: bottom right;
+
+}
+
+q{
+  display: block;
+  font-size:160%;
+  background:#E2E2E2;
+  border-left: solid 3px firebrick;
+  padding: 0 30px;
+  margin: 80px 0;
+}
