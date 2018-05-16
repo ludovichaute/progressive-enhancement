@@ -6,7 +6,6 @@ body{
   background: url("../img/cover.png") no-repeat fixed;
   background-size: cover;
   background-position: bottom right;
-
 }
 
 q{
@@ -15,5 +14,49 @@ q{
   background:#E2E2E2;
   border-left: solid 3px firebrick;
   padding: 0 30px;
-  margin: 80px 0;
+  margin: 80px auto;
+  width: 50%;
+
+}
+
+q{
+  font-style: italic;
+}
+
+span , em {
+  text-transform: capitalize;
+}
+
+span {
+  color: green;
+}
+body > p{
+  font-weight: bold;
+}
+
+em {
+  color: red;
+}
+
+tr:nth-child(even){
+  background-color: grey;
+}
+li{
+  display: block;
+  padding: 20px 0px;
+  background-position: 23% center;
+}
+li:nth-child(1){
+  background-image: url("https://github.com/becodeorg/lovelace-2/raw/master/01-La-prairie/html-css/progressive-enhancement/bien.png");
+  background-repeat: no-repeat;
+
+}
+li:nth-child(2){
+  background-image: url("https://github.com/becodeorg/lovelace-2/raw/master/01-La-prairie/html-css/progressive-enhancement/mal.png");
+  background-repeat: no-repeat;
+
+}
+li:nth-child(3){
+  background-image: url("https://github.com/becodeorg/lovelace-2/raw/master/01-La-prairie/html-css/progressive-enhancement/chat.png");
+  background-repeat: no-repeat;
 }
