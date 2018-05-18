@@ -16,8 +16,6 @@ body{
   justify-items: center;
   grid-row-gap: 55px;
 }
-
-
 ul{
   padding: 3px;
   display: flex;
@@ -45,9 +43,8 @@ article{
   font-weight: bold;
   padding: 3px;
   text-decoration: none;
-
 }
-article p {
+article p{
   display: block;
   text-align: center;
   height: 72px;
