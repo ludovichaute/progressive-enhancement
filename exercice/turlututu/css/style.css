@@ -46,3 +46,34 @@ header{
   font-size: 1.4em;
   font-weight: bold;
 }
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  font-weight: normal;
+}
+.text_middle{
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  background-color: #1e93cc;
+}
+.text_middle ol{
+  margin: 0px 10px;
+  list-style: none;
+  width: 560px;
+}
+.text_middle h1{
+  font-weight: normal;
+}
+.sponsor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 295px;
+  background-color: #eeeeee;
+}
