@@ -1,0 +1,11 @@
+header{
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+}
+.nav_bar{
+  display: flex;
+}
+header nav ul{
+   display: flex;
+ }
