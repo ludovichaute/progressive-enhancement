@@ -1,4 +1,4 @@
-html, body, ol, li, h1, h2, div, p{
+html, body, ol, li, h1, h2, div, p, footer{
   padding: 0px;
   margin: 0px;
 }
@@ -6,7 +6,6 @@ html, body, ol, li, h1, h2, div, p{
   margin: auto;
   font-family: Arial;
 }
-
 nav{
   display: flex;
   width: 100%;
@@ -32,8 +31,12 @@ header{
   align-items: center;
   justify-content: center;
   color: white;
+  background-image: url("../img/geek.png");
+  background-repeat: no-repeat;
+  background-position: 120px 30px;
+  background-size: 230px;
 }
-.buttom_top{
+.button{
   margin-top: 35px;
   display: flex;
   justify-content: center;
@@ -53,8 +56,10 @@ h2 {
   height: 70px;
   font-weight: normal;
 }
+div + h2 {
+  color: #7d6f6f;
+}
 .text_middle{
-
   color: white;
   display: flex;
   justify-content: center;
@@ -76,4 +81,53 @@ h2 {
   align-items: center;
   height: 295px;
   background-color: #eeeeee;
+}
+.text_middle li {
+  padding-top: 10px;
+}
+main p, h1{
+  margin: 10px;
+}
+main p{
+  font-size: 15px;
+}
+main h1 {
+  font-size: 26px;
+  font-weight: normal;
+}
+.space_button_bottom{
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  margin-top: 30px;
+  color: #fff;
+}
+.space_button_bottom div:nth-last-child(1n+2){
+  background-color: #165882;
+}
+footer{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+footer ol{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 415px;
+}
+footer p{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-right: 10px;
+}
+footer ol li:nth-child(1n+2){
+  border-left: dotted 1px gray;
+}
+footer ol li {
+  padding-left: 8px;
 }
