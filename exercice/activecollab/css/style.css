@@ -2,9 +2,11 @@
   padding: 0px;
   margin: 0px;
 }
+body{
+  background-color: #e9edf2;
+}
 header{
   height: 230px;
-  background-color: #e9edf2;
 }
 .nav_bar{
   background-color: #e9edf2;
@@ -53,4 +55,41 @@ header nav ul {
   top: 128px;
   margin: auto;
   height: 160px;
+}
+.content_top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f4655;
+}
+.sec-help{
+  height: 845px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-help p{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  width: 700px;
+  margin: 25px 0px;
+}
+.sec-help .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 270px;
+  background-color: #3093f7;
+  border: solid 1px;
+  border-radius: 10px;
+}
+.sec-help h5{
+  text-align: center;
+  margin-top: 8px;
+}
+.cloud{
+  height: 828px;
+  
 }
