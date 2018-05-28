@@ -90,6 +90,30 @@ header nav ul {
   margin-top: 8px;
 }
 .cloud{
-  height: 828px;
-  
+  height: 825px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.cloud-col{
+  width: 50%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 440px;
+  }
+.cloud-col li {
+  height: 437px;
+  background-color: green;
+  width: 50%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.cloud-col li:nth-child(1){
+  border-right: 1px solid;
+  background-color: blue;
 }
